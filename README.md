@@ -5,4 +5,5 @@
 ### - Relax
 ### - Chemical Skinning
 ## SLControl
+[SLControl](http://www.uky.edu/~kscamp3/SLControl/)
 ## SLControl Experiment Pipeline
