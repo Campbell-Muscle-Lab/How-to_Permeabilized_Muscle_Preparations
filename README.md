@@ -1,7 +1,7 @@
 # How-to: Permeabilized Muscle Preparations
 ## Solutions
 ### - pCa Solutions
-pCa solutions are sets of specialized solutions which are used during permeabilized muscle fiber experiments. The calcium concentration of these solutions often ranges from pCa 9.0 to 4.5 where pCa = -log([Ca]<sup>2+</sup>). These solutions require tight buffering of calcium and calculation of free ion concentrations while taking chelation and hydration complexes into account.
+pCa solutions are sets of specialized solutions which are used during permeabilized muscle fiber experiments. The calcium concentration of these solutions often ranges from pCa 9.0 to 4.5 where pCa = -log([Ca<sup>2+</sup>]). These solutions require tight buffering of calcium and calculation of free ion concentrations while taking chelation and hydration complexes into account.
 
 We use a program called [MaxChelator](https://somapp.ucdmc.ucdavis.edu/pharmacology/bers/maxchelator/) which takes into account complex binding rates, chelation, and hydration complex formation to calculate the total concentration of an ion needed to achieve a desired free ion concentration.
 ### - Relax
