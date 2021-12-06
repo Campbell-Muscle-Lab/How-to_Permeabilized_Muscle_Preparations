@@ -14,7 +14,9 @@ Chemical permeabilization, also called chemical skinning, uses Triton X-100 to p
 SLControl is a free software program designed to run muscle mechanics experiments. A detailed explanation of this software can be found in this [publication](https://journals.physiology.org/doi/full/10.1152/ajpheart.00295.2003?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org). To download or view demos of this program, visit the [SLControl website](http://www.uky.edu/~kscamp3/SLControl/).
 
 SLControl can run experiments in two broad categories: length control or tension control. In length control, preset length changes are imposed upon the muscle fiber and the tension recorded. In tension control, the muscle is allowed to shorten isotonically at constant preset tension while length is recorded. These modes allow for the creation of pCa-tension curves, force-velocity curves, and other muscle mechanic measurements to be made.
-![test](SLControl/SLControl_GUI_examples/fiber_meta_data.png)
+
+![length_control](SLControl/SLControl_GUI_examples/slcontrol_length_control.png)
+![tension_control](SLControl/SLControl_GUI_examples/slcontrol_tension_control.png)
 
 
 ## SLControl Experiment Pipeline
