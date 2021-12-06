@@ -18,7 +18,10 @@ SLControl can run experiments in two broad categories: length control or tension
 ![length_control](SLControl/SLControl_GUI_examples/slcontrol_length_control.png)
 ![tension_control](SLControl/SLControl_GUI_examples/slcontrol_tension_control.png)
 
-In length control you can generate and run simple protocols which can include ramps, holds, and k<sub>tr</sub> manuveurs.
+In length control you can generate and run simple protocols within the program itself which can include ramps, holds, and k<sub>tr</sub> manuveurs. Additionally, experimenters can generate freeform files to run custom protocols. These options are listed below.
+![ramp_hold](SLControl/SLControl_GUI_examples/ramp_parameter.png)
+![ktr_parameter](SLControl/SLControl_GUI_examples/ktr_parameter.png)
+
 
 
 ## SLControl Experiment Pipeline
