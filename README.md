@@ -23,6 +23,8 @@ In length control you can generate and run simple protocols within the program i
 ![ramp_hold](SLControl/SLControl_GUI_examples/ramp_parameter.png)
 ![ktr_parameter](SLControl/SLControl_GUI_examples/ktr_parameter.png)
 
+Each experiment also has an area to input fiber dimensions and file metadata. The fiber dimensions can be used to automatically calculate percent length changes and convert force to force per cross sectional area. File metadata can be used to store information such as who did the experiments, dates solutions were made, muscle type, and anything else valuable for future analysis and reproducability.
 
+![metadata](SLControl/SLControl_GUI_examples/fiber_meta_data.png)
 
 ## SLControl Experiment Pipeline
