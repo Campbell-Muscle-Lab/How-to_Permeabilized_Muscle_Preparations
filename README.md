@@ -18,12 +18,12 @@ SLControl can run experiments in two broad categories: length control or tension
 ![length_control](SLControl/SLControl_GUI_examples/slcontrol_length_control.png)
 ![tension_control](SLControl/SLControl_GUI_examples/slcontrol_tension_control.png)
 
-In length control you can generate and run simple protocols within the program itself which can include ramps, holds, and k<sub>tr</sub> manuveurs. Additionally, experimenters can generate freeform files to run custom protocols. These options for the ramp/hold (left) and k<sub>tr</sub> manuveur (right) are displayed below.
+In length control you can generate and run simple protocols within the program itself which can include ramps, holds, and k<sub>tr</sub> maneuver. Additionally, experimenters can generate freeform files to run custom protocols. These options for the ramp/hold (left) and k<sub>tr</sub> maneuver  (right) are displayed below.
 
 ![ramp_hold](SLControl/SLControl_GUI_examples/ramp_parameter.png)
 ![ktr_parameter](SLControl/SLControl_GUI_examples/ktr_parameter.png)
 
-Each experiment also has an area to input fiber dimensions and file metadata. The fiber dimensions can be used to automatically calculate percent length changes and convert force to force per cross sectional area. File metadata can be used to store information such as who did the experiments, dates solutions were made, muscle type, and anything else valuable for future analysis and reproducability.
+Each experiment also has an area to input fiber dimensions and file metadata. The fiber dimensions can be used to automatically calculate percent length changes and convert force to force per cross sectional area. File metadata can be used to store information such as who did the experiments, dates solutions were made, muscle type, and anything else valuable for future analysis and reproducibility.
 
 ![metadata](SLControl/SLControl_GUI_examples/fiber_meta_data.png)
 
