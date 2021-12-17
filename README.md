@@ -12,14 +12,18 @@ After downloading and installing, open the program and load in a constants file 
 - EGTA
 - Ca2
 - Mg2
+
 ![MaxChelator_recipe_creation](Solutions/pCa Solutions/MaxChelator_images/MaxChelator_tweaking_recipes.png)
+
 This is where we start tweaking the recipe to generate the desired final free concentrations. For our solutions the following concentrations never change:
 - total CRPHOSP = 0.0145 M
 - total EGTA = 0.007 M
 - free Mg2= 0.001 M
 
 The amount of free calcium required is either 1E-9 M for pCa 9.0 or 3.16E-5 M for pCa 4.5. Total concentration of ATP is variable and depends on the desired calcium concentration, pH, temperature, and other solution variables. Regardless, we aim to have a final MgATP concentration of 4E-3 M. To achieve this we start by assuming a total ATP concentration of 0.00458 M and tweak the total ATP concentration until we get 4E-3 M MgATP. With these values input, click "Ok" and allow to the program to run. A warning about calculations being out of the buffering range may occur. Disregard this dialog box and continue to the generated output text file.
+
 ![MaxChelator_output](Solutions/pCa Solutions/MaxChelator_images/MaxChelator_output_txt.png)
+
 In the above image we can see the MaxChelator output file. The green and yellow highed values reflect the inputs from the previous step. You can see that for the given free Ca2 and Mg2 concentrations we wanted the program has calculated the total Ca2 and Mg2 needed to add to the solution. Additionally, the blue highed value shows the MgATP concentration. with the given the current inputs the MgATP concentration is what we want (4E-3 M). If this value is not the desired MgATP concentration adjust the concentration of total ATP (green highlight). Once you have achieved the desired free and total concention save this output file. This output file will provide you with the total ATP, Creatine phosphate, EGTA, Ca2, and Mg2 molarities you need from which you can work backwards from to determine the mass of each compound you'll need to add to your solutions. Repeat these steps until you have created two recipes: pCa 4.5 and pCa 9.0.
 ### - Relax
 Relax has various ions, calcium chelators, and ATP to minimize contraction and keep the muscle viable for future experimentation. Relax solutions is used when working to isolate muscle bundles and fibers and forms the basis of the skinning solution and storage solution. An example recipe can be found and downloaded [here](https://github.com/Campbell-Muscle-Lab/How-to_Permeabilized_Muscle_Preparations/tree/main/Solutions/Relax).
