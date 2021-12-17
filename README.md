@@ -4,6 +4,21 @@
 pCa solutions are sets of specialized solutions which are used during permeabilized muscle fiber experiments. The calcium concentration of these solutions often ranges from pCa 9.0 to 4.5 where pCa = -log([Ca<sup>2+</sup>]). These solutions require tight buffering of calcium and calculation of free ion concentrations while taking chelation and hydration complexes into account.
 
 We use a program called [MaxChelator](https://somapp.ucdmc.ucdavis.edu/pharmacology/bers/maxchelator/) which takes into account complex binding rates, chelation, and hydration complex formation to calculate the total concentration of an ion needed to achieve a desired free ion concentration.
+
+#### MaxChelator
+After downloading and installing, open the program and load in a constants file (File>>Open...>>updated_campbell_constants_jun14_2005.TCM). This constant file includes temperature adjustments and binding constants for the various metals and chelators in the solution. Next change the calculation type to "Total" (Calculation>>Total) because we want to calculate the total concentration needed to achieve the desired free concentration. Clicking on the "Free Metal" will open a window where adjustments for Temperature, pH, and ionic strength. Temperature should be set to the temperature you indend to run experiments at while pH and ionic strength is usually 7 and 180 mM, respectively. After setting these parameters, the next window that will open shows the available chelators and metals that you can calculation in your solutions. For pCa solutions we will select the follow then click "Ok":
+-ATP
+-CRPHOSP
+-EGTA
+-Ca2
+-Mg2
+
+This is where we start tweaking the recipe to generate the desired final free concentrations. For our solutions the following concentrations never change:
+-total CRPHOSP = 0.0145 M
+-total EGTA = 0.007 M
+-free Mg2= 0.001 M
+
+The amount of free calcium required is either 1E-9 M for pCa 9.0 or 3.16E-5 M for pCa 4.5.
 ### - Relax
 Relax has various ions, calcium chelators, and ATP to minimize contraction and keep the muscle viable for future experimentation. Relax solutions is used when working to isolate muscle bundles and fibers and forms the basis of the skinning solution and storage solution. An example recipe can be found and downloaded [here](https://github.com/Campbell-Muscle-Lab/How-to_Permeabilized_Muscle_Preparations/tree/main/Solutions/Relax).
 ### - Chemical Permeabilization
