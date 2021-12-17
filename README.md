@@ -28,6 +28,12 @@ In the above image we can see the MaxChelator output file. The green and yellow 
 
 After generating and saving the last recipe and while keeping the output recipe file open, we must calculate the intermediate pCa values. Open the calcium 2D calulator (Calculation>>2D>>Ca2). You must next put in a low and high concentration of calcium to determine the total calcium needed to for the intermediate values. Because the calculator outputs a fixed number of intermediate values you can't use this over a large range of calcium values. Instead start with a low value of 1E-9 and high value of 1E-8. Click Edit>>to Output to view the output text file. Here you can see the free calcium concentration (FCa2) for a given total calcium concentration (TCa2).
 
+![2D_output](https://github.com/Campbell-Muscle-Lab/How-to_Permeabilized_Muscle_Preparations/blob/5cab0849f87e8e8a15d986571fc67a920bb817e8/Solutions/pCa%20Solutions/MaxChelator_images/small_2d_output.png)
+
+Copy the FCa2, TCa2, and TMg2 columns to a new text document. Continue these for increasing calcium concentrations (1E-8 to 1E-7, 1E-7 to 1E-6, etc.) adding the outputs to the other text document until the highest calcium concentration is 1E-4. This will ensure that the total calcium concentration for any pCa solution between pCa 9.0 and pCa 4.5 is known. Save this newly generated text document. This text document in conjuction with the process.m MATLAB code will be used to calculate the needed proportion of pCa 9.0 and pCa 4.5 stock solutions to make intermediate pCa solutions (pCa 5.4 for example).
+
+#### MATLAB Process
+Open the MATLAB script process.m
 ### - Relax
 Relax has various ions, calcium chelators, and ATP to minimize contraction and keep the muscle viable for future experimentation. Relax solutions is used when working to isolate muscle bundles and fibers and forms the basis of the skinning solution and storage solution. An example recipe can be found and downloaded [here](https://github.com/Campbell-Muscle-Lab/How-to_Permeabilized_Muscle_Preparations/tree/main/Solutions/Relax).
 ### - Chemical Permeabilization
