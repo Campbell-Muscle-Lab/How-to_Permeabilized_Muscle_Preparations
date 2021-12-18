@@ -36,6 +36,9 @@ Copy the FCa2, TCa2, and TMg2 columns to a new text document. Continue these for
 Open the MATLAB script [process.m](https://github.com/Campbell-Muscle-Lab/How-to_Permeabilized_Muscle_Preparations/blob/c5383cdda98c6f186facc57b42187196f6f0dfde/Solutions/pCa%20Solutions/MaxChelator_MATLAB_Utilities/process.m). Set the path to the intermediate calcium concentration output text file you generated in the previous step (yellow highlight). Next set the output path and filename (blue highlight). Set pCa_90_Total_Ca and pCa_45_Total_Ca to the correct values based on the recipes you generated for pCa 4.5 and pCa 9.0 (green highlight).
 
 ![matlab_process](https://github.com/Campbell-Muscle-Lab/How-to_Permeabilized_Muscle_Preparations/blob/00caf6e7c680c8c2a65e01e5769e8c6edebf738d/Solutions/pCa%20Solutions/MaxChelator_images/matlab_process_script.png)
+
+![matlabout](https://github.com/Campbell-Muscle-Lab/How-to_Permeabilized_Muscle_Preparations/blob/9a3b550485cdae2752f4faae749506ba5eb6e6b0/Solutions/pCa%20Solutions/MaxChelator_images/matlab_output.png)
+
 ### - Relax
 Relax has various ions, calcium chelators, and ATP to minimize contraction and keep the muscle viable for future experimentation. Relax solutions is used when working to isolate muscle bundles and fibers and forms the basis of the skinning solution and storage solution. An example recipe can be found and downloaded [here](https://github.com/Campbell-Muscle-Lab/How-to_Permeabilized_Muscle_Preparations/tree/main/Solutions/Relax).
 ### - Chemical Permeabilization
